@@ -10,7 +10,7 @@ namespace ePSXeArchiveLauncher
 {
     class Program
     {
-        private readonly static String[] extensions = { ".cue", ".ccd", ".bin", ".iso" };
+        private readonly static String[] extensions = { ".m3u", ".cue", ".ccd", ".mds", ".bin", ".iso", ".mdf", ".img", ".pbp" };
         static void Main(string[] args)
         {
             if (args.Length != 2)
